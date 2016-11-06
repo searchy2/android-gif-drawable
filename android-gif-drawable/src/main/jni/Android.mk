@@ -243,7 +243,6 @@ LOCAL_SRC_FILES := \
 	memset.arm.S \
     surface.c \
 	opengl.c \
-	webp.c \
 	giflib/dgif_lib.c \
 	giflib/gifalloc.c \
 	giflib/openbsd-reallocarray.c \
