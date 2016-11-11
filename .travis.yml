@@ -46,7 +46,7 @@ before_install:
   - export PATH=${PATH}:${ANDROID_NDK_HOME}
 
 script:
-  - ./gradlew build connectedCheck :android-gif-drawable:jacocoTestReport --info
+  - ./gradlew build connectedCheck :android-gif-drawable:jacocoTestReport
 
 after_failure:
  - cat android-gif-drawable/build/outputs/lint-results-debug.xml
