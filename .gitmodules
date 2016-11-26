@@ -2,5 +2,5 @@
 	path = libwebp
 	url = https://github.com/webmproject/libwebp.git
 [submodule "android-gif-drawable/src/main/jni/libwebp"]
-	path = android-gif-drawable/src/main/jni/libwebp
+	path = android-gif-drawable/src/main/c/libwebp
 	url = https://github.com/webmproject/libwebp.git
